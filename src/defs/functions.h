@@ -9,13 +9,11 @@
 #define infinity 999
 #define n 16
 
-extern int adj[n][n];
-
-int dijkstra(int source,int dest);
+int dijkstra(int source,int dest,int adj[][n]);
 void shortest_path(char str[]);
 int strcompare_case_insensitive(char a[],char b[]);
-void init();
-void SIT_distances();
+void init(int adj[][n]);
+void SIT_distances(int adj[][n]);
 void SIT_landmarks();
 int sourceval(char s[]);
 int destinationval(char d[]);
