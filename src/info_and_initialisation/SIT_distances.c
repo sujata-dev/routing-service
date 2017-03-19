@@ -2,7 +2,7 @@
 
 #include "../defs/functions.h"
 
-void SIT_distances()
+void SIT_distances(int adj[][n])
 {
     /* in metres (approximately)
               A   B   C   D   E    F   G   H   S   CCD Sym Mes Ran CS   MG
