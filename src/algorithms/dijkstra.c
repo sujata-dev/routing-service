@@ -2,11 +2,11 @@
 
 #include "../defs/functions.h"
 
-int dijkstra(int source,int dest)
+int dijkstra(int source,int dest,int adj[][n])
 {
     int dist[n],prev[n],selected[n]={0},m,min,start,d,i,j;
     char path[n];
-    init();
+    init(adj);
     for(i=1;i<n;i++)
     {
         dist[i]=infinity;
@@ -15,7 +15,7 @@ int dijkstra(int source,int dest)
     start=source;
     selected[start]=1;
     dist[start]=0;
-    SIT_distances();
+    SIT_distances(adj);
     while(selected[dest]==0)
     {
         min=infinity;
