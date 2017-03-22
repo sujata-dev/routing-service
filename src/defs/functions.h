@@ -7,7 +7,7 @@
 #include<ctype.h>
 #include<stdbool.h>
 #define infinity 999
-#define n 16
+#define n 17
 
 int dijkstra(int source,int dest,int adj[][n]);
 void shortest_path(char str[]);
@@ -17,6 +17,7 @@ void SIT_distances(int adj[][n]);
 void SIT_landmarks();
 int sourceval(char s[]);
 int destinationval(char d[]);
+void function_handling(int x);
 void exitservice(char ans[]);
 int main();
 
