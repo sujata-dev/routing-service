@@ -19,7 +19,8 @@ int sourceval(char s[])
     else if(strcompare_case_insensitive(s,"Mess"))  x=12;
     else if(strcompare_case_insensitive(s,"Rangoli"))   x=13;
     else if(strcompare_case_insensitive(s,"Coffee-Stop"))   x=14;
-    else if(strcompare_case_insensitive(s,"Main-Gate")) x=15;
+    else if(strcompare_case_insensitive(s,"Academic-Block"))   x=15;
+    else if(strcompare_case_insensitive(s,"Main-Gate")) x=16;
     else
         printf("The entered source node is not available\n");
     return x;
