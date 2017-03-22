@@ -48,7 +48,9 @@ void shortest_path(char str[])
                         break;
             case 'N':   printf("Coffee-Stop-> ");
                         break;
-            case 'O':   printf("Main-Gate-> ");
+            case 'O':   printf("Academic-Block-> ");
+                        break;
+            case 'P':   printf("Main-Gate-> ");
                         break;
         }
         k++;
