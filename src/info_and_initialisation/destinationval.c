@@ -19,7 +19,8 @@ int destinationval(char d[])
     else if(strcompare_case_insensitive(d,"Mess"))  x=12;
     else if(strcompare_case_insensitive(d,"Rangoli"))   x=13;
     else if(strcompare_case_insensitive(d,"Coffee-Stop"))   x=14;
-    else if(strcompare_case_insensitive(d,"Main-Gate")) x=15;
+    else if(strcompare_case_insensitive(d,"Academic-Block"))   x=15;
+    else if(strcompare_case_insensitive(d,"Main-Gate")) x=16;
     else
         printf("The entered destination node is not available\n");
     return x;
