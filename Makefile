@@ -6,6 +6,7 @@ CFLAGS=-c
 LDFLAGS=
 
 SOURCES=src/exitservice.c \
+		src/function_handling.c \
         src/info_and_initialisation/init.c \
         src/info_and_initialisation/SIT_distances.c \
         src/info_and_initialisation/SIT_landmarks.c \
