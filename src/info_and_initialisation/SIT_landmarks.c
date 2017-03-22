@@ -19,5 +19,6 @@ void SIT_landmarks()
     printf("12) Mess\n");
     printf("13) Rangoli\n");
     printf("14) Coffee-Stop\n");
-    printf("15) Main-Gate\n");
+    printf("15) Academic-Block\n");
+    printf("16) Main-Gate\n");
 }
