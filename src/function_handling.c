@@ -6,7 +6,11 @@ void function_handling(int x)
 {
     FILE *fp;
     char c,d,y=x+32;
+<<<<<<< HEAD
+    fp=fopen("src/file.dat","r");
+=======
     fp=fopen("/home/administrator/Desktop/routing-service/src/file.dat","r");
+>>>>>>> e416cf9f79450a5b8760e8bb27a80be35b1570bd
     if(fp==NULL)
     {
         printf("Cannot open file");
