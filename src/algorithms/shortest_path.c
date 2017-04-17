@@ -22,23 +22,23 @@ void shortest_path(char str[])
     {
         switch(str[k])
         {
-            case 'A':   printf("Hostel-A-> ");
+            case 'A':   printf("Hostel A-> ");
                         break;
-            case 'B':   printf("Hostel-B-> ");
+            case 'B':   printf("Hostel B-> ");
                         break;
-            case 'C':   printf("Hostel-C-> ");
+            case 'C':   printf("Hostel C-> ");
                         break;
-            case 'D':   printf("Hostel-D-> ");
+            case 'D':   printf("Hostel D-> ");
                         break;
-            case 'E':   printf("Hostel-E-> ");
+            case 'E':   printf("Hostel E-> ");
                         break;
-            case 'F':   printf("Hostel-F-> ");
+            case 'F':   printf("Hostel F-> ");
                         break;
-            case 'G':   printf("Hostel-G-> ");
+            case 'G':   printf("Hostel G-> ");
                         break;
-            case 'H':   printf("Hostel-H-> ");
+            case 'H':   printf("Hostel H-> ");
                         break;
-            case 'I':   printf("Hostel-S-> ");
+            case 'I':   printf("Hostel S-> ");
                         break;
             case 'J':   printf("CCD-> ");
                         break;
@@ -48,11 +48,11 @@ void shortest_path(char str[])
                         break;
             case 'M':   printf("Rangoli-> ");
                         break;
-            case 'N':   printf("Coffee-Stop-> ");
+            case 'N':   printf("Coffee Stop-> ");
                         break;
-            case 'O':   printf("Academic-Block-> ");
+            case 'O':   printf("Academic Block-> ");
                         break;
-            case 'P':   printf("Main-Gate-> ");
+            case 'P':   printf("Main Gate-> ");
                         break;
         }
         k++;
