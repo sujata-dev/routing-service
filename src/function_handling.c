@@ -5,8 +5,10 @@
 void function_handling(int x)
 {
     FILE *fp;
+    //x is sourceval, calculated according to source value
+    /*Obtained value of y denotes appropriate ASCII value which begins
+    the required line in file.dat*/
     char c,d,y=x+32;
-    fp=fopen("src/file.dat","r");
     fp=fopen("src/file.dat","r");
     if(fp==NULL)
     {
