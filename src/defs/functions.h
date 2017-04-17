@@ -1,3 +1,5 @@
+/*#include guard/macro guard, to avoid multiple inclusion
+of function.h header file*/
 #ifndef functions_h
 #define functions_h
 
@@ -5,7 +7,6 @@
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
-#include<stdbool.h>
 #define infinity 999
 #define n 17
 
