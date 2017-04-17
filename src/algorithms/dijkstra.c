@@ -40,7 +40,8 @@ int dijkstra(int source,int dest,int adj[][n])
     }
     start=dest;
     j=0;
-    //Reverse path obtained
+    //Obtaining a reverse path from destination to source
+    //Each landmark denoted by an alphabet
     while(start!=-1)
     {
         path[j++]=start+64;
