@@ -6,6 +6,7 @@ void shortest_path(char str[])
 {
     int i=strlen(str)-1,j=0,k=0;
     char ch;
+    //inverting path to get the correct path
     while(i>j)
     {
         ch=str[i];
@@ -16,6 +17,7 @@ void shortest_path(char str[])
     }
     printf("\nShortest Path:\n\n");
     printf("\tStart-> ");
+    //replacing alphabets with actual appropriate landmarks
     while(str[k]!='\0')
     {
         switch(str[k])
