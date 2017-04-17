@@ -13,6 +13,7 @@ int main()
     {
         SIT_landmarks();
         printf("\nEnter the source node: ");
+        //input should not be longer than 99 characters
         scanf(" %99[^\n]",s);
         source=sourceval(s);
         if(source!=0)
