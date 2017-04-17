@@ -7,7 +7,7 @@ int dijkstra(int source,int dest,int adj[][n])
     int dist[n],prev[n],selected[n]={0},m,min,start,d,i,j;
     char path[n];
     init(adj);
-    for(i=1;i<n;i++)
+    for(i=1;i<=n;i++)
     {
         dist[i]=infinity;
         prev[i]=-1;
@@ -20,9 +20,10 @@ int dijkstra(int source,int dest,int adj[][n])
     {
         min=infinity;
         m=0;
-        for(i=1;i<n;i++)
+        for(i=1;i<=n;i++)
         {
             d=dist[start]+adj[start][i];
+            //node should not have been selected before
             if(d<dist[i] && selected[i]==0)
             {
                 dist[i]=d;
@@ -39,6 +40,7 @@ int dijkstra(int source,int dest,int adj[][n])
     }
     start=dest;
     j=0;
+    //Reverse path obtained
     while(start!=-1)
     {
         path[j++]=start+64;
